@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'PRINC';
+	src: url('./PRINC.eot');
+	src: local('PRINC'), url('./PRINC.woff') format('woff'), url('./PRINC.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_494">Text with this font applied</p> */
+.fontsforweb_fontid_494 {
+	font-family: 'PRINC' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
