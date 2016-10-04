@@ -22,7 +22,7 @@ var url, lat, lon, city, state;
 $(document).ready(function() {
   $.ajax({
     type: 'GET',
-    url: 'https://ip-api.com/json',
+    url: 'http://ip-api.com/json',
     async: true,
     contentType: 'application/json',
     dataType: 'jsonp',
