@@ -1,0 +1,49 @@
+* {
+  outline: none;
+}
+
+body {
+  font-family: Arima, Arial, sans serif;
+  padding-top: 30px;
+}
+
+li {
+  line-height: 1.75em;
+}
+
+.row {
+  margin: 1em auto;
+}
+
+td > img {
+  margin: 0 15px;
+  float: right;
+  height: 4em;
+  width: 4em;
+}
+
+.navbar {
+  font-weight: 700;
+  background-color: #fff;
+  letter-spacing: -.05em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navbar a {
+  font-size: 2rem;
+  color: #566;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .nav > li > a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.icon-bar {
+  border: 2px solid #666;
+}
